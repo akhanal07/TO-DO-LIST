@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+div{
+    margin: auto;
+    background-color: aqua;
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding-top: 30px;
+    
+}
+
+
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+  
+
+ 
+  
+li {
+    display: block; 
+    margin-bottom: 10px; /* This is the key change */
+  }
+  
+
+
+
+.delete {
+    margin-left: 100px; /* Adjust the spacing as needed */
+}
+
+
