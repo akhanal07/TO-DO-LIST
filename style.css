@@ -40,3 +40,8 @@ li {
 }
 
 
+.underlined {
+  text-decoration: line-through; /* Style for underlined tasks */
+}
+
+
