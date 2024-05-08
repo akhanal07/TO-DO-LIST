@@ -27,10 +27,15 @@ ul.addEventListener("click", function(event) {
     // Check if the parent element exists before removing
     if (event.target.parentElement) {
       let element = event.target.parentElement;
+      element.style.textDecoration = "underline"; // Apply underline style
       element.remove();
     }
+  } else if (event.target.nodeName === "LI") { // Check if clicked element is an li
+    event.target.classList.toggle("underlined"); // Toggle underline on click
   }
 });
+
+
 
 
 // let Delbtns = document.querySelectorAll(".delete");
